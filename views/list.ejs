@@ -1,0 +1,7 @@
+<% layout('layout') -%>
+<h1>Lista de itens (Tela 2)</h1>
+<ul>
+    <% items.forEach(it => { %>
+        <li><strong><%= it.name %></strong> - <%= it.description %></li>
+    <% }) %>
+</ul>
